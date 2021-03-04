@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" type="image/png" href="https://cloud-minapp-38535.cloud.ifanrusercontent.com/1lHiDdX3rRmeH3id.jpeg"/>
+    <link rel="apple-touch-icon" href="https://cloud-minapp-38535.cloud.ifanrusercontent.com/1lHiDdX3rRmeH3id.jpeg">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://cloud-minapp-38535.cloud.ifanrusercontent.com/1lHiDdX3rRmeH3id.jpeg">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://cloud-minapp-38535.cloud.ifanrusercontent.com/1lHiDdX3rRmeH3id.jpeg">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://cloud-minapp-38535.cloud.ifanrusercontent.com/1lHiDdX3rRmeH3id.jpeg">
+    <title>风火递</title>
+  </head>
+  <script>document.documentElement.style.fontSize = 100 * document.documentElement.clientWidth / 375 + "px"</script>
+  <style>
+      * { margin: 0; padding: 0 }
+      body, html { height: 100%; width: 100%; background: #f3f2f2; display: flex; justify-content: center; max-height: 100vh;}
+      .content { height: 100%; width: 100%; display: flex; flex-direction: column; align-items: center;  max-width: 400px;}
+      .main { color: #333; margin-top: 1rem; font-size: 25px; flex: 1;}
+      .guide { width: 95%; margin-bottom: .5rem; position: relative; }
+      .guide .content { width: 100%; padding-top: .16rem; padding-bottom: .06rem; margin: 0 auto; border-radius: .04rem; box-shadow: 0 6px 15px rgba(0, 0, 0, .13); background: #fff; font-size: 14px; }
+      .guide .tips { margin-bottom: .02rem }
+      .guide .icon { width: .2rem; height: .24rem; margin: 0 .035rem .02rem; vertical-align: bottom }
+      .guide .toolbar { width: 100%; height: auto; margin-top: .06rem; }
+      .guide .arrow { width: .27rem; height: auto; position: absolute; left: 50%; bottom: -.35rem; margin-left: -.135rem; z-index: 10 }
+  </style>
+  <body>
+      <a id="redirect" href="weixin://dl/business/?t=1aWxpmw3wXl"></a>
+      <div id="container">
+        <div class="content">
+          <div class="main">添加风火递快捷方式到桌面</div>
+          <div class="guide">
+              <div class="content">
+                  <p class="tips">
+                    点击下方工具栏上的<img class="icon" src="https://cloud-minapp-38535.cloud.ifanrusercontent.com/1kxU6wtG92fnmKSY.png">
+                  </p>
+                  <p class="tips">
+                    并选择“<strong>添加到主屏幕</strong>”
+                  </p>
+                  <img class="toolbar" src="https://cloud-minapp-38535.cloud.ifanrusercontent.com/1kxhTXdDyJDP4SHg.png">
+                  <img class="arrow" src="https://cloud-minapp-38535.cloud.ifanrusercontent.com/1kxU6wGOGF0PNm8n.png">
+              </div>
+          </div>
+        </div>
+      </div>
+  </body>
+  <script type="text/javascript">
+    if (window.navigator.standalone) {
+        var element = document.getElementById('container');
+        element.style.display = "none";
+
+        var element = document.getElementById('redirect');
+        var event = document.createEvent('MouseEvents');
+        event.initEvent('click', true, true, document.defaultView, 1, 0, 0, 0, 0, false, false, false, false, 0, null);
+        document.body.style.backgroundColor = '#FFFFFF';
+        setTimeout(function() {
+          element.dispatchEvent(event);
+        }, 25);
+    } else {
+        var element = document.getElementById('container');
+        element.style.display = "inline";
+    }
+  </script>
+</html>
